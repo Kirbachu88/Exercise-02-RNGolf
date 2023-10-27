@@ -100,7 +100,7 @@ class Play extends Phaser.Scene {
         this.scoreText.text = "Score: " + this.score
         this.percentageText.text = "Success %: " + (this.score / this.shotCount)
     
-        this.oneWay.setVelocityX(200)
+        // this.oneWay.setVelocityX(200)
     }
 
     ballReset(ball) {
